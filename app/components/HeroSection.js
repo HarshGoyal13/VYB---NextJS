@@ -24,7 +24,7 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-xl sm:text-xl md:text-2xl font-bold w-full md:w-[400px] mx-auto md:mx-0">
-          "Unleash Your Influence: Sell Itineraries, Build Your Brand, Create Merch, and Share Content – All in One Hub."
+          &quot;Unleash Your Influence: Sell Itineraries, Build Your Brand, Create Merch, and Share Content – All in One Hub.&quot;
         </p>
 
         <div className="flex space-x-4 md:space-x-6">

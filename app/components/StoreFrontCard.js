@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const StoreFrontCard = ({ title, description, graphImage, bgColor, width, height }) => {
   return (
@@ -12,7 +13,7 @@ const StoreFrontCard = ({ title, description, graphImage, bgColor, width, height
       </div>
 
       <div className="flex-1">
-  <img
+  <Image
     src={graphImage}
     alt="Graph"
     style={{ width: width, height: height }}

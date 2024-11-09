@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { FaUser, FaMapMarkerAlt, FaPhone, FaSignOutAlt } from 'react-icons/fa';
+import Image from 'next/image';
 
 const Sidebar = () => {
   const [open, setOpen] = useState(true);
@@ -18,7 +19,7 @@ const Sidebar = () => {
 
       {/* User Profile */}
       <div className="flex flex-col items-center p-3">
-        <img
+        <Image
           className="w-16 h-16 rounded-full object-cover mb-3"
           src="/images/ladki.png"
           alt="Profile"
